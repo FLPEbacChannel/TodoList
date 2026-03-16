@@ -14,10 +14,6 @@ Clone o repositório:
 
 git clone https://github.com/seu-usuario/my-task-list.git
 
-Entre na pasta do projeto:
-
-cd my-task-list
-
 Instale as dependências:
 
 npm install
