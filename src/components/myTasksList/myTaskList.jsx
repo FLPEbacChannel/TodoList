@@ -1,5 +1,5 @@
 // páginas ou componentes
-import { Container, Input, Button, TaskList, FilterButtonsBoxe } from './styles'
+import { Container, Input, Button, TaskList, FilterButtonsBox } from './styles'
 import { useTaskContext } from '../../contexts/TaskContext'; 
 import { useInput } from '../../hooks/useInput';
 
@@ -17,11 +17,11 @@ export function MyTaskList() {
         <Container>
             <h1>Task's List</h1>
             
-            <FilterButtonsBoxe>
+            <FilterButtonsBox>
                 <Button onClick={() => setFilterType('all')}>Todas</Button>
                 <Button onClick={() => setFilterType('pending')}>Pendentes</Button>
                 <Button onClick={() => setFilterType('completed')}>Concluídas</Button>
-            </FilterButtonsBoxe>
+            </FilterButtonsBox>
 
             <Input
                 value={value}
