@@ -18,7 +18,7 @@ export const Container = styled.div`
   }
 `;
 
-export const FilterButtonsBoxe = styled.div`
+export const FilterButtonsBox = styled.div`
   display: flex;
   gap: 10px;
   margin-bottom: 1.5rem;
